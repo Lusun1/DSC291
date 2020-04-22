@@ -14,3 +14,11 @@ The value, $Z$, represents the number of `iperf3` tests that will be run in that
 
 We will document the mean, median, standard deviation, and maximum values for both network performance (Kb/s or PPS) and cost (\$ / Kb or packet).  We will also document the percent of spot intances terminated by AWS.
 
+### Next Steps:
+1. Discuss the instances types to experiment
+1. Method experts learn how to use iperf to calculate the speed and discuss what will be the measurement 
+    1. [Amazon network speed calculation](https://aws.amazon.com/premiumsupport/knowledge-center/network-throughput-benchmark-linux-ec2/)
+1. Decide how many attempts to run based on the cost
+1. Method expert write iperf script and lanch the experiment
+1. Summarize the data and analyze
+1. Write up 
